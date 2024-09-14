@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+  padding: 25px;
+  margin: 15px;
+  display: block;
+}
+.container {
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+  border: none;
+  width: 500px;
+  background-color: #dbd8e3;
+  padding: 5px 5px 20px 10px;
+  box-shadow: black;
+  line-height: 30px;
+}
+.checkbox {
+  background: #f5f1fe;
+  color: #f5f1fe;
+}
+body {
+  background: #352f44;
+  display: block;
+  margin: 80px;
+}
+
+#headfont {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+footer {
+  padding: 30px 0px 0px 0px;
+  text-align: center;
+}
