@@ -1,5 +1,8 @@
-let checkingbox = document.querySelector("checked");
-checkingbox = addEventListener("check", eventDone);
-function eventDone(event) {
-  event.preventDefault();
+function updateTime() {
+  let headerTimeElement = document.querySelector("#header-time");
+  let timeElement = headerTimeElement.querySelector(".time");
+  timeElement.innerHTML = moment()
+    .tz(`Africa/Mpumalanga`)
+    .format("dddd Do YYYY, H:m:ss:SSSS A");
 }
+setInterval(updateTime, 100);

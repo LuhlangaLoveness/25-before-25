@@ -53,3 +53,7 @@ a {
   text-decoration: none;
   color: purple;
 }
+.time {
+  display: flex;
+  padding: 0px 0px 0px 120px;
+}
