@@ -11,10 +11,22 @@ h1 {
   border: none;
   width: 500px;
   background-color: #dbd8e3;
-  padding: 5px 5px 20px 10px;
-  box-shadow: black;
+  padding: 30px 5px 20px 10px;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.7);
   line-height: 30px;
 }
+.container-header {
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+  border: none;
+  width: 500px;
+  background-color: #dbd8e3;
+  padding: 0px 5px 0px 10px;
+  margin-bottom: 10px;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
 .checkbox {
   background: #f5f1fe;
   color: #f5f1fe;
